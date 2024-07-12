@@ -1,9 +1,22 @@
-<html>
+<html
+  style="
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAER0lEQVR4nO2aa6gVVRSAP4/eHqaZWWIqghaYGWSUpUWUKEhRRlCREZGgmJCIFlIIeQkfRUkvUgs1epjYpR9h2MPCrKiowMzo+kOxFLEnCqmZj24sWAObYa25Z845c844zgeLy91r9t6z1tmz91prBkpKSkpKSkpKGk8bcD7Qi9PM6HnANuAE0AX8A7wP3EDBOQ/4Wo225CSwgALzboLxocykgFxfpfEih4ALKBjPp3CASDsF4xPDyC+AicAvhu5XoEKB+Nwwcrnqpjur4CoKxHrDQDkRhH7AUUP/GAXiYcNAiQP6q36Dod9MgRjlLPM7Vf+AoZNVcRYFYqdh5Cuqk5VwzNDPBZ4G1gEvAncBZ8fGPRMYbLTnjmcNA38O9B9UeUTuBW4C7tDHJNw/fgDmAD3JIRMdg0Z2cxpYEuURnnyqoXfuEqGDxs3OVr1Ef8dTBkxJshF4BNgC7Fan3J3H43BDoP+4gQ7w5L1W7hf3GTf0N3CG6mcZ+n3AJidirFUWZWlkBbhXN7WdGgW+BIwFBjjP743ad5CmxVH7y4Fzemr0GPb7E3gGeAL4KYUD5JHIhN66xLyJO4BOo31xMMYWbesMjI/oo9mi6P8CLonp0qySi7JwwJs1LslvgzFma9uDzhyRg2SDixNfIUkyutHGj63jmTypj4cwRM92+WuxUvXWMfekjvc78DrwXcKc4xrtgKfq3JjC7O/ShHnma3XJqztIKj00aHvNmW88DabDmOQAsFR/me8TjD8aJEbVxBNejiCb6RWxtvHNcsBbxiQfxa65VivA8esWkh0jmvUIPG5MckL3BgxHyNH4hiY4WXJxsxwwKnaGhwlPtMG1gpGOA67OYrJXnck2tTBDG+fck6yMhtMf2ONMKBFbK7jFuR95LZfZO4DjzqS3pRzrZpWIC7W8JhFnxD3AdQljzHTijkyrzo86DpDV0TfFOLtUIh7ScW4P2v7VVDfN6bSDjKkAXzlOeCHFOHtVIubpGOHJIf9/6fSXXOI34x5W0wRG669jLT85BpvhgBnOjzCNJtHu3EBnlSWrehzQT/vG5z6UIuqsG1mCPzpO+Aw4N0MHrHLmlRpDU7kmoYi5PSHrq8cBk4H/jPmOAMNpAe2OA7q0ajSsgQ7onRCLSLjeEirA292UqCwnbFeJmKbXTwraDmgFOCkn6dLagGSSLaOtGydsBc6J9RkeW7JtGvT0CNou01oimib/4aTbkqu0nF7A2gQnrKlz/KmnwgcXFWCZc6MSI4ypor9X0FxhjHm4mcdeGhY4Tog+nLAYpBueXPehsW9sM8aTSlVu2WjcsLw+m6IbXSgz9CVJPKhZotcvc44+0eeW+xP2g0ZJ9O4xl0w43R1weY1GWUvdE0mhc0tFg6A0xr+jscD+Kq+/lZxzJfBNFYbs0Y8oKkF16Dl9R+j1WXsqfW84UGv4lgyuoa+8LC0pKSkpKSkpoVb+BzHXN5kB1umAAAAAAElFTkSuQmCC'),
+      auto;
+  "
+>
+  <head>
+    <title>My cool website</title>
+  </head>
   <body
     style="background-image: url(/img/bg_01.jpg); background-repeat: repeat"
     center
   >
-    <table width="900" align="center">
+    <table
+      width="900"
+      align="center"
+      border="5px solid pink"
+      style="color: white"
+    >
       <tr>
         <th><img src="/img/logo-grad.png" /></th>
         <th>
@@ -11,19 +24,325 @@
             >Welcome to my totally awesome 90s website! Enjoy your
             stay!</marquee
           >
+          <table>
+            <tr>
+              <th>Letter</th>
+              <th>Add</th>
+              <th>Name!!</th>
+              <th>Restart</th>
+            </tr>
+            <tr>
+              <td>
+                <span style="cursor: crosshair" id="randomize-letter-refresh"
+                  >A</span
+                >
+              </td>
+              <td>
+                <button id="randomize-letter-add">Add this letter!!</button>
+              </td>
+              <td>
+                <input type="text" readonly />
+              </td>
+              <td>
+                <button
+                  style="cursor: not-allowed"
+                  id="randomize-letter-restart"
+                >
+                  :(
+                </button>
+              </td>
+            </tr>
+          </table>
         </th>
-        <th><img src="/img/jseyeblue.gif" height="150" width="150" /></th>
+        <th>
+          <img src="/img/clippy-paperclip.gif" height="150" width="150" />
+        </th>
+      </tr>
+      <tr height="300" align="top">
+        <td>
+          <table>
+            <tr>
+              <td>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  style="color: white"
+                  ><img src="/img/handstill.gif" />Awesome code</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  style="color: white"
+                  ><img src="/img/handstill.gif" />Good design</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  style="color: white"
+                  ><img src="/img/handstill.gif" />Faassst websites</a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table
+            style="
+              width: 400px;
+              height: 100px;
+              background-color: #ffff00;
+              border: 5px solid #ff0000;
+              text-align: center;
+              font-family: 'Courier New', Courier, monospace;
+              margin: 20px auto;
+              position: relative;
+            "
+          >
+            <tr>
+              <td
+                id="bannerText"
+                style="
+                  color: #0000ff;
+                  font-size: 24px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  >Click Here!</a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table
+            style="
+              border: 3px double black;
+              background-color: #e0ffff;
+              padding: 5px;
+              margin: 20px auto;
+              font-family: monospace;
+            "
+          >
+            <tr>
+              <td style="font-size: 18px; font-weight: bold">
+                Page Hits: <span id="counter">00000</span>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr height="200">
+        <td colspan="3" align="center">
+          <p
+            style="
+              top: 0;
+              left: 0;
+              height: 150px;
+              width: 150px;
+              border-radius: 50%;
+              background-color: white;
+            "
+            id="anim-container"
+          ></p>
+          <p
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 50px;
+              width: 50px;
+              border-radius: 50%;
+              background-color: crimson;
+            "
+            id="anim-child"
+          ></p>
+        </td>
       </tr>
       <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-      </tr>
-      <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
+        <td colspan="3" align="center">
+          <marquee>Copyright DEPT</marquee>
+        </td>
       </tr>
     </table>
+
+    <script>
+      console.log("Script has loaded in!");
+      // Constants
+      const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+      // Elements
+      const randomizeLetterRefresh = document.getElementById(
+        "randomize-letter-refresh"
+      );
+      const randomizeLetterAdd = document.getElementById(
+        "randomize-letter-add"
+      );
+      const randomizeLetterRestart = document.getElementById(
+        "randomize-letter-restart"
+      );
+      const container = document.getElementById("anim-container");
+      const child = document.getElementById("anim-child");
+
+      // Event handlers
+      randomizeLetterRefresh.addEventListener("click", function () {
+        const randomLetter =
+          LETTERS[Math.floor(Math.random() * LETTERS.length)];
+        randomizeLetterRefresh.innerText = randomLetter;
+      });
+
+      randomizeLetterAdd.addEventListener("click", function () {
+        const letter = randomizeLetterRefresh.innerText;
+        const input = document.querySelector("input");
+        input.value += letter;
+      });
+
+      randomizeLetterRestart.addEventListener("click", function () {
+        const input = document.querySelector("input");
+        input.value = "";
+      });
+
+      // Onmouse tracking, position the child of the container between th cursor and container
+      window.addEventListener("mousemove", function (event) {
+        // console.log("idsad");
+        const cursorX = event.pageX || event.clientX;
+        const cursorY = event.pageY || event.clientY;
+        const originX = container.getBoundingClientRect().left;
+        const originY = container.getBoundingClientRect().top;
+
+        const deltaX = Math.abs(cursorX - originX);
+        const deltaY = Math.abs(cursorY - originY);
+        //         console.log("originX");
+        //      console.log(originX, originX + cursorX);
+        // console.log(originY);
+
+        const endX = deltaX / 2 + originX;
+        const endY = deltaY / 2 + originY; //
+        // console.log(endX, endY);
+        child.style.left = endX;
+        child.style.top = endY;
+      });
+    </script>
+    <script>
+      var banner = document.querySelector("table");
+      var text = document.getElementById("bannerText");
+      var colors = ["#ff0000", "#00ff00", "#0000ff"];
+      var colorIndex = 0;
+      var fontSize = 24;
+      var growing = true;
+
+      setInterval(function () {
+        // Color flashing
+        text.style.color = colors[colorIndex];
+        colorIndex = (colorIndex + 1) % colors.length;
+
+        // Growing and shrinking
+        if (growing) {
+          fontSize += 1;
+          if (fontSize >= 36) {
+            growing = false;
+          }
+        } else {
+          fontSize -= 1;
+          if (fontSize <= 16) {
+            growing = true;
+          }
+        }
+        text.style.fontSize = fontSize + "px";
+      }, 100);
+
+      banner.addEventListener("mousemove", function (event) {
+        var mouseX = event.clientX - banner.offsetLeft;
+        var mouseY = event.clientY - banner.offsetTop;
+
+        var deltaX = banner.offsetWidth / 2 - mouseX;
+        var deltaY = banner.offsetHeight / 2 - mouseY;
+
+        text.style.left = 50 + deltaX * 0.05 + "%";
+        text.style.top = 50 + deltaY * 0.05 + "%";
+      });
+    </script>
+    <script>
+      var counterElement = document.getElementById("counter");
+      var count = localStorage.getItem("hitCount") || 0; // Get from storage or start at 0
+      var digits = "0123456789"; // For random digit effect
+
+      function updateCounter() {
+        // Pad with zeros (adjust length as needed)
+        var displayCount =
+          "00000".substring(0, 5 - count.toString().length) + count;
+
+        // Annoying random digit flicker (optional, remove if too much!)
+        for (var i = 0; i < displayCount.length; i++) {
+          if (Math.random() < 0.2) {
+            // 20% chance to flicker
+            displayCount =
+              displayCount.substring(0, i) +
+              digits[Math.floor(Math.random() * digits.length)] +
+              displayCount.substring(i + 1);
+          }
+        }
+        counterElement.textContent = displayCount;
+      }
+
+      // Simulate increasing counts (replace with actual logic if needed)
+      setInterval(function () {
+        count++;
+        localStorage.setItem("hitCount", count); // Store in localStorage
+        updateCounter();
+      }, 3000); // Update every 3 seconds (adjust as needed)
+
+      updateCounter(); // Initial display
+    </script>
+    <script>
+      function createSparkle() {
+        var sparkle = document.createElement("span");
+        sparkle.textContent = "*";
+        sparkle.style.color = "#ffffff";
+        sparkle.style.position = "absolute";
+        sparkle.style.fontSize = Math.random() * 4 + 10 + "px";
+        sparkle.style.left = Math.random() * 100 + "vw";
+        sparkle.style.top = Math.random() * 100 + "vh";
+
+        document.body.appendChild(sparkle);
+
+        var directionX = Math.random() < 0.5 ? 1 : -1;
+        var directionY = Math.random() < 0.5 ? 1 : -1;
+        var speed = Math.random() * 3 + 1;
+        var size = parseFloat(sparkle.style.fontSize);
+        var growing = true;
+
+        setInterval(function () {
+          // Flashing
+          sparkle.style.visibility = Math.random() < 0.5 ? "visible" : "hidden";
+
+          // Growing and Shrinking (with looping)
+          if (growing) {
+            size += 1;
+            if (size >= Math.random() * 100) {
+              growing = false; // Switch to shrinking
+            }
+          } else {
+            size -= 1;
+            if (size <= 16) {
+              growing = true; // Switch back to growing
+            }
+          }
+          sparkle.style.fontSize = size + "px";
+        }, 50);
+      }
+
+      for (var i = 0; i < 50; i++) {
+        createSparkle();
+      }
+    </script>
   </body>
 </html>
